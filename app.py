@@ -15,7 +15,7 @@ st.title("OPA — Online Purchase Analysis")
 @st.cache_data
 def load_data():
     # Ajuste o caminho conforme onde o arquivo está
-    df = pd.read_csv("/content/Profissão Cientista de Dados M29 - online_shoppers_intention.csv")
+    df = pd.read_csv("online_shoppers_intention.csv")
     return df
 
 df = load_data()
